@@ -1,0 +1,22 @@
+[0.003s] Invoking command in '/home/aman/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/micro_ros_agent -- -j16 -l16
+[0.028s] [  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[0.040s] [ 12%] [34m[1mNo patch step for 'xrceagent'[0m
+[0.052s] [ 18%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[0.057s] loading initial cache file /home/aman/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[0.060s] -- Setting build type to 'Release' as none was specified.
+[0.065s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[0.065s]   Could not find a configuration file for package "fastcdr" that is
+[0.065s]   compatible with requested version "2".
+[0.065s] 
+[0.065s]   The following configuration files were considered but not accepted:
+[0.065s] 
+[0.065s]     /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.24
+[0.065s] 
+[0.066s] 
+[0.066s] [0m
+[0.066s] -- Configuring incomplete, errors occurred!
+[0.066s] See also "/home/aman/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".
+[0.066s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:93: agent/src/xrceagent-stamp/xrceagent-configure] Error 1
+[0.066s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[0.066s] gmake: *** [Makefile:91: all] Error 2
+[0.069s] Invoked command in '/home/aman/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/micro_ros_agent -- -j16 -l16

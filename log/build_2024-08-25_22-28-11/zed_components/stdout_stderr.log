@@ -1,0 +1,29 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+gmake[2]: *** No rule to make target '/usr/local/cuda/lib64/libcudart_static.a', needed by 'libzed_camera_component.so'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+[ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+In file included from [01m[K/usr/local/zed/include/sl/Fusion.hpp:66[m[K,
+                 from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include/gnss_replay.hpp:5[m[K,
+                 from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/src/gnss_replay.cpp:1[m[K:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:86:10:[m[K [01;31m[Kfatal error: [m[Kcuda.h: No such file or directory
+   86 | #include [01;31m[K<cuda.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19[m[K,
+                 from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:15[m[K:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:86:10:[m[K [01;31m[Kfatal error: [m[Kcuda.h: No such file or directory
+   86 | #include [01;31m[K<cuda.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:104: CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:118: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o] Error 1
+In file included from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include/sl_tools.hpp:22[m[K,
+                 from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/src/sl_tools.cpp:25[m[K:
+[01m[K/usr/local/zed/include/sl/Camera.hpp:86:10:[m[K [01;31m[Kfatal error: [m[Kcuda.h: No such file or directory
+   86 | #include [01;31m[K<cuda.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:76: CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/zed_camera_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

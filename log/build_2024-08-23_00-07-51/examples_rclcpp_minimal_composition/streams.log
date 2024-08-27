@@ -1,0 +1,43 @@
+[0.004s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[0.041s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[0.042s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[6.352s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[6.440s] [ 33%] Built target composition_nodes
+[6.447s] [35m[1mConsolidate compiler generated dependencies of target composition_subscriber[0m
+[6.447s] [35m[1mConsolidate compiler generated dependencies of target composition_publisher[0m
+[6.447s] [35m[1mConsolidate compiler generated dependencies of target composition_composed[0m
+[6.457s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[6.457s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[6.457s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[8.289s] [ 77%] [32m[1mLinking CXX executable composition_publisher[0m
+[8.322s] [ 88%] [32m[1mLinking CXX executable composition_subscriber[0m
+[8.372s] [ 88%] Built target composition_publisher
+[8.402s] [ 88%] Built target composition_subscriber
+[8.442s] [100%] [32m[1mLinking CXX executable composition_composed[0m
+[8.514s] [100%] Built target composition_composed
+[8.522s] Invoked command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[8.543s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aman/ros2_ws/build/examples_rclcpp_minimal_composition
+[8.548s] -- Install configuration: "Release"
+[8.548s] -- Execute custom install script
+[8.549s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[8.549s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[8.550s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[8.550s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[8.550s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[8.550s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[8.551s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[8.551s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[8.551s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[8.551s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[8.551s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[8.552s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[8.552s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[8.552s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[8.552s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[8.552s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[8.552s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[8.558s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[8.558s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[8.558s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[8.559s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[8.560s] Invoked command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aman/ros2_ws/build/examples_rclcpp_minimal_composition

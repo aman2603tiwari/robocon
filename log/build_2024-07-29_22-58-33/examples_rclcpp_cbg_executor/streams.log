@@ -1,0 +1,40 @@
+[0.008s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_cbg_executor -- -j16 -l16
+[0.038s] [ 10%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[0.038s] [ 20%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[0.038s] [ 30%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[0.040s] [ 70%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[0.041s] [ 70%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[5.629s] [ 80%] [32m[1mLinking CXX executable pong[0m
+[5.786s] [ 90%] [32m[1mLinking CXX executable ping[0m
+[5.915s] [ 90%] Built target pong
+[6.057s] [ 90%] Built target ping
+[6.444s] [100%] [32m[1mLinking CXX executable ping_pong[0m
+[6.786s] [100%] Built target ping_pong
+[6.793s] Invoked command in '/home/aman/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_cbg_executor -- -j16 -l16
+[6.810s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/aman/ros2_ws/build/examples_rclcpp_cbg_executor
+[6.816s] -- Install configuration: ""
+[6.816s] -- Execute custom install script
+[6.816s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[6.821s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[6.826s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[6.831s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[6.835s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[6.840s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[6.844s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[6.849s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[6.853s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[6.858s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[6.862s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[6.866s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[6.871s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[6.875s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[6.879s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[6.883s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[6.887s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[6.891s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.895s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[6.900s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[6.904s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[6.910s] Invoked command in '/home/aman/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/aman/ros2_ws/build/examples_rclcpp_cbg_executor

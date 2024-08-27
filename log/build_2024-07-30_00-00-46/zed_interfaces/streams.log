@@ -1,0 +1,64 @@
+[0.017s] Invoking command in '/home/aman/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/zed_interfaces -- -j16 -l16
+[0.082s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.087s] [  0%] Built target ament_cmake_python_symlink_zed_interfaces
+[0.162s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.387s] running egg_info
+[0.405s] writing zed_interfaces.egg-info/PKG-INFO
+[0.405s] writing dependency_links to zed_interfaces.egg-info/dependency_links.txt
+[0.406s] writing top-level names to zed_interfaces.egg-info/top_level.txt
+[0.463s] reading manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[0.484s] Traceback (most recent call last):
+[0.484s]   File "/home/aman/ros2_ws/build/zed_interfaces/ament_cmake_python/zed_interfaces/setup.py", line 4, in <module>
+[0.485s]     setup(
+[0.485s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 108, in setup
+[0.485s]     return distutils.core.setup(**attrs)
+[0.485s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 184, in setup
+[0.485s]     return run_commands(dist)
+[0.485s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+[0.485s]     dist.run_commands()
+[0.485s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 970, in run_commands
+[0.485s]     self.run_command(cmd)
+[0.485s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/dist.py", line 945, in run_command
+[0.485s]     super().run_command(command)
+[0.485s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 989, in run_command
+[0.486s]     cmd_obj.run()
+[0.486s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 310, in run
+[0.486s]     self.find_sources()
+[0.486s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 318, in find_sources
+[0.486s]     mm.run()
+[0.486s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 544, in run
+[0.486s]     self.prune_file_list()
+[0.486s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 610, in prune_file_list
+[0.486s]     base_dir = self.distribution.get_fullname()
+[0.486s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 266, in get_fullname
+[0.486s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.486s]   File "/home/aman/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 284, in _distribution_fullname
+[0.486s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.487s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.532s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_zed_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_zed_interfaces_egg] Error 1
+[0.532s] gmake[1]: *** [CMakeFiles/Makefile2:474: CMakeFiles/ament_cmake_python_build_zed_interfaces_egg.dir/all] Error 2
+[0.532s] gmake[1]: *** Waiting for unfinished jobs....
+[3.013s] [  1%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/object__functions.c.o[0m
+[3.022s] [  1%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/objects_stamped__functions.c.o[0m
+[3.032s] [  3%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_di__functions.c.o[0m
+[3.032s] [  3%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_df__functions.c.o[0m
+[3.045s] [  3%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint3_d__functions.c.o[0m
+[3.051s] [  4%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_di__functions.c.o[0m
+[3.058s] [  4%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_df__functions.c.o[0m
+[3.063s] [  5%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box3_d__functions.c.o[0m
+[3.130s] [  6%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/depth_info_stamped__functions.c.o[0m
+[3.140s] [  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton3_d__functions.c.o[0m
+[3.141s] [  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton2_d__functions.c.o[0m
+[3.154s] [  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/plane_stamped__functions.c.o[0m
+[3.165s] [  7%] Built target zed_interfaces__cpp
+[3.230s] [  8%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/pos_track_status__functions.c.o[0m
+[3.234s] [  8%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/gnss_fusion_status__functions.c.o[0m
+[3.247s] [  9%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/heartbeat__functions.c.o[0m
+[3.268s] [  9%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/mag_heading_status__functions.c.o[0m
+[3.311s] [ 10%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_pose__functions.c.o[0m
+[3.327s] [ 11%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/start_svo_rec__functions.c.o[0m
+[3.363s] [ 11%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_roi__functions.c.o[0m
+[3.717s] [ 12%] [32m[1mLinking C shared library libzed_interfaces__rosidl_generator_c.so[0m
+[3.776s] [ 12%] Built target zed_interfaces__rosidl_generator_c
+[3.778s] gmake: *** [Makefile:146: all] Error 2
+[3.780s] Invoked command in '/home/aman/ros2_ws/build/zed_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/zed_interfaces -- -j16 -l16

@@ -1,0 +1,67 @@
+[0.006s] Invoking command in '/home/aman/ros2_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_components/lib:/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aman/ros2_ws/src/zed-ros2-wrapper/zed_wrapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/zed_wrapper
+[0.037s] -- Found CUDA: /usr/local/cuda (found suitable version "12.2", minimum required is "12") 
+[0.059s] -- Found CUDA: /usr/local/cuda (found version "12.2") 
+[0.060s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.132s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.185s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.187s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.393s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.394s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.504s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.531s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.532s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.532s] -- Configured cppcheck include dirs: /home/aman/ros2_ws/src/zed-ros2-wrapper/zed_wrapper/src
+[0.532s] -- Configured cppcheck exclude dirs and/or files: 
+[0.532s] -- Added test 'lint_cmake' to check CMake code style
+[0.532s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.533s] -- Added test 'uncrustify' to check C / C++ code style
+[0.533s] -- Configured uncrustify additional arguments: 
+[0.533s] -- Added test 'xmllint' to check XML markup files
+[0.534s] -- Configuring done
+[0.563s] -- Generating done
+[0.564s] -- Build files have been written to: /home/aman/ros2_ws/build/zed_wrapper
+[0.570s] Invoked command in '/home/aman/ros2_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_components/lib:/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aman/ros2_ws/src/zed-ros2-wrapper/zed_wrapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/zed_wrapper
+[0.572s] Invoking command in '/home/aman/ros2_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_components/lib:/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aman/ros2_ws/build/zed_wrapper -- -j16 -l16
+[0.600s] [35m[1mConsolidate compiler generated dependencies of target zed_wrapper[0m
+[0.613s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_wrapper.dir/src/zed_wrapper.cpp.o[0m
+[3.972s] [100%] [32m[1mLinking CXX executable zed_wrapper[0m
+[4.185s] [100%] Built target zed_wrapper
+[4.191s] Invoked command in '/home/aman/ros2_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_components/lib:/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aman/ros2_ws/build/zed_wrapper -- -j16 -l16
+[4.206s] Invoking command in '/home/aman/ros2_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_components/lib:/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aman/ros2_ws/build/zed_wrapper
+[4.210s] -- Install configuration: "Release"
+[4.210s] -- Execute custom install script
+[4.211s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[4.211s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[4.211s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/virtual.yaml
+[4.211s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[4.211s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[4.211s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[4.212s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[4.212s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[4.212s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[4.212s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[4.212s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[4.212s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[4.213s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py
+[4.213s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[4.213s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[4.213s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[4.214s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[4.214s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[4.214s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[4.214s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[4.214s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[4.214s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[4.214s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[4.214s] -- Symlinking: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[4.220s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[4.220s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[4.220s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[4.220s] -- Up-to-date symlink: /home/aman/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[4.222s] Invoked command in '/home/aman/ros2_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_components:/home/aman/ros2_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_components/lib:/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aman/ros2_ws/build/zed_wrapper

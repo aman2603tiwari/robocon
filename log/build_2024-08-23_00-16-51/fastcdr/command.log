@@ -1,0 +1,6 @@
+Invoking command in '/home/aman/ros2_ws/build/fastcdr': /usr/bin/cmake /home/aman/ros2_ws/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/fastcdr
+Invoked command in '/home/aman/ros2_ws/build/fastcdr' returned '0': /usr/bin/cmake /home/aman/ros2_ws/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/fastcdr
+Invoking command in '/home/aman/ros2_ws/build/fastcdr': /usr/bin/cmake --build /home/aman/ros2_ws/build/fastcdr -- -j16 -l16
+Invoked command in '/home/aman/ros2_ws/build/fastcdr' returned '0': /usr/bin/cmake --build /home/aman/ros2_ws/build/fastcdr -- -j16 -l16
+Invoking command in '/home/aman/ros2_ws/build/fastcdr': /usr/bin/cmake --install /home/aman/ros2_ws/build/fastcdr
+Invoked command in '/home/aman/ros2_ws/build/fastcdr' returned '0': /usr/bin/cmake --install /home/aman/ros2_ws/build/fastcdr

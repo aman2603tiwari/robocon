@@ -1,0 +1,37 @@
+[0.009s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[0.045s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.045s] [  8%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[0.045s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[0.045s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[0.046s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.046s] [ 25%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[0.046s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[0.047s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[0.047s] [ 37%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[0.048s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[0.048s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[2.986s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[3.100s] [ 50%] Built target wait_set_listener
+[3.110s] [ 54%] [32m[1mLinking CXX executable wait_set_talker[0m
+[3.217s] [ 54%] Built target wait_set_talker
+[5.741s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[5.980s] [ 58%] Built target talker
+[7.530s] [ 62%] [32m[1mLinking CXX executable static_wait_set[0m
+[7.807s] [ 62%] Built target static_wait_set
+[8.144s] [ 66%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[8.162s] [ 70%] [32m[1mLinking CXX executable executor_random_order[0m
+[8.458s] [ 70%] Built target executor_random_order
+[8.467s] [ 70%] Built target wait_set_topics_and_timer
+[8.614s] [ 75%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[8.675s] [ 79%] [32m[1mLinking CXX executable wait_set[0m
+[8.898s] [ 83%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[8.921s] [ 83%] Built target wait_set_topics_with_different_rates
+[8.984s] [ 83%] Built target wait_set
+[9.167s] [ 83%] Built target thread_safe_wait_set
+[9.245s] [ 87%] [32m[1mLinking CXX shared library liblistener.so[0m
+[9.488s] [ 87%] Built target listener
+[9.508s] [ 91%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[9.913s] [ 95%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[10.164s] [ 95%] Built target wait_set_random_order
+[11.076s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[11.191s] [100%] Built target wait_set_composed

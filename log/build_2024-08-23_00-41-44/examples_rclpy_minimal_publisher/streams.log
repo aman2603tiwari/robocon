@@ -1,0 +1,19 @@
+[0.423s] Invoking command in '/home/aman/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/aman/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aman/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aman/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps symlink_data
+[0.580s] running develop
+[0.666s] running egg_info
+[0.666s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[0.666s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[0.666s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[0.666s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[0.666s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[0.688s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[0.688s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[0.716s] running build_ext
+[0.716s] Creating /home/aman/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[0.717s] Installing publisher_local_function script to /home/aman/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.717s] Installing publisher_member_function script to /home/aman/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.717s] Installing publisher_old_school script to /home/aman/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.717s] 
+[0.717s] Installed /home/aman/ros2_ws/build/examples_rclpy_minimal_publisher
+[0.718s] running symlink_data
+[0.743s] Invoked command in '/home/aman/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/aman/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aman/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aman/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps symlink_data

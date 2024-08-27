@@ -1,0 +1,79 @@
+[0.150s] Invoking command in '/home/aman/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aman/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/micro_ros_agent
+[0.187s] -- The C compiler identification is GNU 11.4.0
+[0.191s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.273s] -- The CXX compiler identification is GNU 11.4.0
+[0.277s] -- Detecting CXX compiler ABI info
+[0.329s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.356s] -- Configuring done
+[0.357s] -- Generating done
+[0.358s] [33mCMake Warning:
+[0.358s]   Manually-specified variables were not used by the project:
+[0.358s] 
+[0.358s]     AMENT_CMAKE_SYMLINK_INSTALL
+[0.358s] 
+[0.358s] [0m
+[0.358s] -- Build files have been written to: /home/aman/ros2_ws/build/micro_ros_agent
+[0.360s] Invoked command in '/home/aman/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aman/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/micro_ros_agent
+[0.361s] Invoking command in '/home/aman/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/micro_ros_agent -- -j16 -l16
+[0.389s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[0.426s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.436s] Cloning into 'xrceagent'...
+[3.970s] HEAD is now at 7362281 Release v2.4.3
+[4.001s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[4.022s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[4.034s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[4.038s] loading initial cache file /home/aman/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[4.069s] -- The C compiler identification is GNU 11.4.0
+[4.073s] -- Detecting C compiler ABI info
+[4.109s] -- Detecting C compiler ABI info - done
+[4.113s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.113s] -- Detecting C compile features
+[4.113s] -- Detecting C compile features - done
+[4.141s] -- The CXX compiler identification is GNU 11.4.0
+[4.145s] -- Detecting CXX compiler ABI info
+[4.193s] -- Detecting CXX compiler ABI info - done
+[4.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.198s] -- Detecting CXX compile features
+[4.198s] -- Detecting CXX compile features - done
+[4.200s] -- Looking for pthread.h
+[4.240s] -- Looking for pthread.h - found
+[4.240s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.282s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.283s] -- Found Threads: TRUE  
+[4.288s] -- Configuring done
+[4.289s] -- Generating done
+[4.289s] -- Build files have been written to: /home/aman/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[4.300s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[4.321s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[4.355s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[4.367s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[4.380s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[4.392s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[4.397s] loading initial cache file /home/aman/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[4.400s] -- Setting build type to 'Release' as none was specified.
+[4.416s] -- Configuring incomplete, errors occurred!
+[4.416s] See also "/home/aman/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".
+[4.416s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[4.416s]   Could not find a configuration file for package "fastcdr" that is
+[4.416s]   compatible with requested version "2".
+[4.416s] 
+[4.417s]   The following configuration files were considered but not accepted:
+[4.417s] 
+[4.417s]     /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.24
+[4.417s] 
+[4.417s] 
+[4.417s] [0m
+[4.417s] gmake[5]: *** [CMakeFiles/uagent.dir/build.make:93: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1
+[4.417s] gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2
+[4.417s] gmake[3]: *** [Makefile:91: all] Error 2
+[4.418s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+[4.418s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[4.418s] gmake: *** [Makefile:91: all] Error 2
+[4.420s] Invoked command in '/home/aman/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/micro_ros_agent -- -j16 -l16

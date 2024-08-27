@@ -1,0 +1,85 @@
+[0.003s] Invoking command in '/home/aman/ros2_ws/build/fastcdr': /usr/bin/cmake /home/aman/ros2_ws/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/fastcdr
+[0.007s] -- Setting build type to 'Release' as none was specified.
+[0.008s] -- Tests not compiled by default
+[0.039s] -- The CXX compiler identification is GNU 11.4.0
+[0.044s] -- Detecting CXX compiler ABI info
+[0.088s] -- Detecting CXX compiler ABI info - done
+[0.092s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.092s] -- Detecting CXX compile features
+[0.093s] -- Detecting CXX compile features - done
+[0.093s] -- Configuring Fast CDR
+[0.093s] -- Version: 2.2.3
+[0.094s] -- Performing Test SUPPORTS_NOTFOUND
+[0.137s] -- Performing Test SUPPORTS_NOTFOUND - Success
+[0.137s] -- Enforced cxx_std_11 CMake feature
+[0.138s] -- Looking for C++ include sys/types.h
+[0.184s] -- Looking for C++ include sys/types.h - found
+[0.184s] -- Looking for C++ include stdint.h
+[0.229s] -- Looking for C++ include stdint.h - found
+[0.230s] -- Looking for C++ include stddef.h
+[0.276s] -- Looking for C++ include stddef.h - found
+[0.276s] -- Check size of long double
+[0.324s] -- Check size of long double - done
+[0.324s] -- Check size of __float128
+[0.371s] -- Check size of __float128 - done
+[0.395s] -- The C compiler identification is GNU 11.4.0
+[0.399s] -- Detecting C compiler ABI info
+[0.439s] -- Detecting C compiler ABI info - done
+[0.443s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.443s] -- Detecting C compile features
+[0.443s] -- Detecting C compile features - done
+[0.444s] -- Configuring done
+[0.446s] -- Generating done
+[0.447s] -- Build files have been written to: /home/aman/ros2_ws/build/fastcdr
+[0.583s] Invoked command in '/home/aman/ros2_ws/build/fastcdr' returned '0': /usr/bin/cmake /home/aman/ros2_ws/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/fastcdr
+[0.584s] Invoking command in '/home/aman/ros2_ws/build/fastcdr': /usr/bin/cmake --build /home/aman/ros2_ws/build/fastcdr -- -j16 -l16
+[0.608s] [ 20%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/CdrSizeCalculator.cpp.o[0m
+[0.609s] [ 20%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[0.609s] [ 30%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[0.609s] [ 40%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[0.609s] [ 50%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadOptionalAccessException.cpp.o[0m
+[0.610s] [ 60%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/LockedExternalAccessException.cpp.o[0m
+[0.611s] [ 80%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[0.611s] [ 80%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[0.612s] [ 90%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[1.241s] [100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[1.290s] [100%] Built target fastcdr
+[1.296s] Invoked command in '/home/aman/ros2_ws/build/fastcdr' returned '0': /usr/bin/cmake --build /home/aman/ros2_ws/build/fastcdr -- -j16 -l16
+[1.315s] Invoking command in '/home/aman/ros2_ws/build/fastcdr': /usr/bin/cmake --install /home/aman/ros2_ws/build/fastcdr
+[1.322s] -- Install configuration: "Release"
+[1.322s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr
+[1.322s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/cdr
+[1.322s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/cdr/fixed_size_string.hpp
+[1.322s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/fastcdr_dll.h
+[1.322s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/FastBuffer.h
+[1.322s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/detail
+[1.322s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/detail/container_recursive_inspector.hpp
+[1.323s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+[1.323s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/FastCdr.h
+[1.323s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/CdrEncoding.hpp
+[1.323s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/CdrSizeCalculator.hpp
+[1.323s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/Cdr.h
+[1.323s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/config
+[1.323s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/config/doxygen_modules.h
+[1.323s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/exceptions
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/exceptions/BadOptionalAccessException.hpp
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/exceptions/Exception.h
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/exceptions/LockedExternalAccessException.hpp
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/xcdr
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/xcdr/external.hpp
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/xcdr/optional.hpp
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/xcdr/detail
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/xcdr/detail/optional.hpp
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/xcdr/MemberId.hpp
+[1.324s] -- Installing: /home/aman/ros2_ws/install/fastcdr/include/fastcdr/config.h
+[1.325s] -- Installing: /home/aman/ros2_ws/install/fastcdr/lib/libfastcdr.so.2.2.3
+[1.325s] -- Installing: /home/aman/ros2_ws/install/fastcdr/lib/libfastcdr.so.2
+[1.325s] -- Installing: /home/aman/ros2_ws/install/fastcdr/lib/libfastcdr.so
+[1.325s] -- Installing: /home/aman/ros2_ws/install/fastcdr/lib/cmake/fastcdr/fastcdr-shared-targets.cmake
+[1.325s] -- Installing: /home/aman/ros2_ws/install/fastcdr/lib/cmake/fastcdr/fastcdr-shared-targets-release.cmake
+[1.325s] -- Installing: /home/aman/ros2_ws/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+[1.325s] -- Installing: /home/aman/ros2_ws/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake
+[1.326s] -- Installing: /home/aman/ros2_ws/install/fastcdr/share/fastcdr/LICENSE
+[1.328s] Invoked command in '/home/aman/ros2_ws/build/fastcdr' returned '0': /usr/bin/cmake --install /home/aman/ros2_ws/build/fastcdr

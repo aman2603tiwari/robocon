@@ -1,0 +1,23 @@
+[0.004s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_minimal_service -- -j16 -l16
+[0.038s] [100%] Built target service_main
+[0.044s] Invoked command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_minimal_service -- -j16 -l16
+[0.058s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aman/ros2_ws/build/examples_rclcpp_minimal_service
+[0.062s] -- Install configuration: "Release"
+[0.062s] -- Execute custom install script
+[0.063s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[0.064s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[0.064s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[0.064s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[0.064s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[0.065s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[0.065s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[0.065s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[0.065s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[0.065s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[0.070s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[0.071s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[0.071s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[0.071s] -- Up-to-date symlink: /home/aman/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[0.072s] Invoked command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aman/ros2_ws/build/examples_rclcpp_minimal_service

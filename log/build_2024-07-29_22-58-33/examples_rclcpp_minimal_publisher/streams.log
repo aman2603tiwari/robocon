@@ -1,0 +1,45 @@
+[0.005s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[0.036s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[0.036s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[0.036s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[0.036s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[0.040s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[2.944s] [ 58%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[3.019s] [ 66%] [32m[1mLinking CXX executable publisher_lambda[0m
+[3.034s] [ 75%] [32m[1mLinking CXX executable publisher_member_function[0m
+[3.076s] [ 75%] Built target publisher_not_composable
+[3.089s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[3.148s] [ 83%] Built target publisher_lambda
+[3.164s] [ 83%] Built target publisher_member_function
+[3.213s] [ 83%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[3.918s] [ 91%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[3.962s] [100%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[4.027s] [100%] Built target publisher_member_function_with_type_adapter
+[4.068s] [100%] Built target publisher_wait_for_all_acked
+[4.074s] Invoked command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[4.097s] Invoking command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/aman/ros2_ws/build/examples_rclcpp_minimal_publisher
+[4.100s] -- Install configuration: ""
+[4.101s] -- Execute custom install script
+[4.101s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[4.106s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[4.111s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[4.115s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[4.120s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[4.124s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[4.129s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[4.134s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[4.138s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[4.143s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[4.148s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[4.152s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[4.157s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[4.162s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[4.167s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[4.171s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[4.176s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[4.180s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[4.185s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[4.190s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[4.194s] -- Symlinking: /home/aman/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[4.200s] Invoked command in '/home/aman/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/aman/ros2_ws/build/examples_rclcpp_minimal_publisher

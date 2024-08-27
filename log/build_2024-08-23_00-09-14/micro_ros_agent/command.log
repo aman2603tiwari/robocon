@@ -1,0 +1,2 @@
+Invoking command in '/home/aman/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/micro_ros_agent -- -j16 -l16
+Invoked command in '/home/aman/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aman/ros2_ws/build/micro_ros_agent -- -j16 -l16

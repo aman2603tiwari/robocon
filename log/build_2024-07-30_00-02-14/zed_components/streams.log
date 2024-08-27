@@ -1,0 +1,97 @@
+[0.023s] Invoking command in '/home/aman/ros2_ws/build/zed_components': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:/home/aman/install/examples_rclcpp_wait_set:/home/aman/install/examples_rclcpp_multithreaded_executor:/home/aman/install/examples_rclcpp_minimal_timer:/home/aman/install/examples_rclcpp_minimal_subscriber:/home/aman/install/examples_rclcpp_minimal_service:/home/aman/install/examples_rclcpp_minimal_publisher:/home/aman/install/examples_rclcpp_minimal_composition:/home/aman/install/examples_rclcpp_minimal_client:/home/aman/install/examples_rclcpp_minimal_action_server:/home/aman/install/examples_rclcpp_minimal_action_client:/home/aman/install/examples_rclcpp_cbg_executor:/home/aman/install/examples_rclcpp_async_client:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/zed_components
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.193s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.297s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.414s] -- Detecting CXX compiler ABI info - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.427s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.437s] -- Looking for sgemm_
+[0.528s] -- Looking for sgemm_ - not found
+[0.530s] -- Looking for pthread.h
+[0.619s] -- Looking for pthread.h - found
+[0.619s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.711s] -- Found Threads: TRUE  
+[0.774s] -- Looking for sgemm_
+[0.927s] -- Looking for sgemm_ - found
+[0.928s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.964s] -- Found CUDA: /usr/local/cuda (found suitable version "12.2", minimum required is "12") 
+[1.154s] -- Found CUDA: /usr/local/cuda (found version "12.2") 
+[1.159s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.539s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.771s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.783s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.804s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.843s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.897s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.905s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.477s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.611s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.526s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.529s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.529s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.754s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.870s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.883s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.883s] -- Configured cppcheck include dirs: /home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include
+[7.883s] -- Configured cppcheck exclude dirs and/or files: 
+[7.885s] -- Added test 'lint_cmake' to check CMake code style
+[7.888s] -- Added test 'uncrustify' to check C / C++ code style
+[7.888s] -- Configured uncrustify additional arguments: 
+[7.889s] -- Added test 'xmllint' to check XML markup files
+[7.906s] -- Configuring done
+[7.958s] -- Generating done
+[7.961s] -- Build files have been written to: /home/aman/ros2_ws/build/zed_components
+[8.005s] Invoked command in '/home/aman/ros2_ws/build/zed_components' returned '0': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:/home/aman/install/examples_rclcpp_wait_set:/home/aman/install/examples_rclcpp_multithreaded_executor:/home/aman/install/examples_rclcpp_minimal_timer:/home/aman/install/examples_rclcpp_minimal_subscriber:/home/aman/install/examples_rclcpp_minimal_service:/home/aman/install/examples_rclcpp_minimal_publisher:/home/aman/install/examples_rclcpp_minimal_composition:/home/aman/install/examples_rclcpp_minimal_client:/home/aman/install/examples_rclcpp_minimal_action_server:/home/aman/install/examples_rclcpp_minimal_action_client:/home/aman/install/examples_rclcpp_cbg_executor:/home/aman/install/examples_rclcpp_async_client:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aman/ros2_ws/install/zed_components
+[8.006s] Invoking command in '/home/aman/ros2_ws/build/zed_components': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:/home/aman/install/examples_rclcpp_wait_set:/home/aman/install/examples_rclcpp_multithreaded_executor:/home/aman/install/examples_rclcpp_minimal_timer:/home/aman/install/examples_rclcpp_minimal_subscriber:/home/aman/install/examples_rclcpp_minimal_service:/home/aman/install/examples_rclcpp_minimal_publisher:/home/aman/install/examples_rclcpp_minimal_composition:/home/aman/install/examples_rclcpp_minimal_client:/home/aman/install/examples_rclcpp_minimal_action_server:/home/aman/install/examples_rclcpp_minimal_action_client:/home/aman/install/examples_rclcpp_cbg_executor:/home/aman/install/examples_rclcpp_async_client:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aman/ros2_ws/build/zed_components -- -j16 -l16
+[8.255s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[8.258s] [ 40%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[8.297s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[8.303s] [ 80%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+[50.927s] [100%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[51.274s] [100%] Built target zed_camera_component
+[51.286s] Invoked command in '/home/aman/ros2_ws/build/zed_components' returned '0': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:/home/aman/install/examples_rclcpp_wait_set:/home/aman/install/examples_rclcpp_multithreaded_executor:/home/aman/install/examples_rclcpp_minimal_timer:/home/aman/install/examples_rclcpp_minimal_subscriber:/home/aman/install/examples_rclcpp_minimal_service:/home/aman/install/examples_rclcpp_minimal_publisher:/home/aman/install/examples_rclcpp_minimal_composition:/home/aman/install/examples_rclcpp_minimal_client:/home/aman/install/examples_rclcpp_minimal_action_server:/home/aman/install/examples_rclcpp_minimal_action_client:/home/aman/install/examples_rclcpp_cbg_executor:/home/aman/install/examples_rclcpp_async_client:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aman/ros2_ws/build/zed_components -- -j16 -l16
+[51.305s] Invoking command in '/home/aman/ros2_ws/build/zed_components': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:/home/aman/install/examples_rclcpp_wait_set:/home/aman/install/examples_rclcpp_multithreaded_executor:/home/aman/install/examples_rclcpp_minimal_timer:/home/aman/install/examples_rclcpp_minimal_subscriber:/home/aman/install/examples_rclcpp_minimal_service:/home/aman/install/examples_rclcpp_minimal_publisher:/home/aman/install/examples_rclcpp_minimal_composition:/home/aman/install/examples_rclcpp_minimal_client:/home/aman/install/examples_rclcpp_minimal_action_server:/home/aman/install/examples_rclcpp_minimal_action_client:/home/aman/install/examples_rclcpp_cbg_executor:/home/aman/install/examples_rclcpp_async_client:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aman/ros2_ws/build/zed_components
+[51.309s] -- Install configuration: "Release"
+[51.309s] -- Execute custom install script
+[51.309s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/lib/libzed_camera_component.so
+[51.314s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//cost_traversability.hpp
+[51.318s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//sl_types.hpp
+[51.322s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+[51.327s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//gnss_replay.hpp
+[51.331s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//json.hpp
+[51.336s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//sl_logging.hpp
+[51.340s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//sl_tools.hpp
+[51.344s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//sl_win_avg.hpp
+[51.348s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/include/zed_components//visibility_control.hpp
+[51.352s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/environment/library_path.sh
+[51.357s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/environment/library_path.dsv
+[51.361s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[51.365s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[51.369s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[51.373s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[51.377s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/environment/path.sh
+[51.381s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/environment/path.dsv
+[51.385s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/local_setup.bash
+[51.389s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/local_setup.sh
+[51.393s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/local_setup.zsh
+[51.397s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/local_setup.dsv
+[51.401s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/package.dsv
+[51.406s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[51.410s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[51.414s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.418s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[51.422s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.426s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[51.431s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[51.435s] -- Symlinking: /home/aman/ros2_ws/install/zed_components/share/zed_components/package.xml
+[51.441s] Invoked command in '/home/aman/ros2_ws/build/zed_components' returned '0': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:/home/aman/install/examples_rclcpp_wait_set:/home/aman/install/examples_rclcpp_multithreaded_executor:/home/aman/install/examples_rclcpp_minimal_timer:/home/aman/install/examples_rclcpp_minimal_subscriber:/home/aman/install/examples_rclcpp_minimal_service:/home/aman/install/examples_rclcpp_minimal_publisher:/home/aman/install/examples_rclcpp_minimal_composition:/home/aman/install/examples_rclcpp_minimal_client:/home/aman/install/examples_rclcpp_minimal_action_server:/home/aman/install/examples_rclcpp_minimal_action_client:/home/aman/install/examples_rclcpp_cbg_executor:/home/aman/install/examples_rclcpp_async_client:/home/aman/install/launch_testing_examples:/home/aman/install/examples_rclpy_pointcloud_publisher:/home/aman/install/examples_rclpy_minimal_subscriber:/home/aman/install/examples_rclpy_minimal_service:/home/aman/install/examples_rclpy_minimal_publisher:/home/aman/install/examples_rclpy_minimal_client:/home/aman/install/examples_rclpy_minimal_action_server:/home/aman/install/examples_rclpy_minimal_action_client:/home/aman/install/examples_rclpy_guard_conditions:/home/aman/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aman/ros2_ws/build/zed_components

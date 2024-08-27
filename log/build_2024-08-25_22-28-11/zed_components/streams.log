@@ -1,0 +1,31 @@
+[0.006s] Invoking command in '/home/aman/ros2_ws/build/zed_components': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aman/ros2_ws/build/zed_components -- -j16 -l16
+[0.052s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[0.052s] [ 40%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[0.058s] gmake[2]: *** No rule to make target '/usr/local/cuda/lib64/libcudart_static.a', needed by 'libzed_camera_component.so'.  Stop.
+[0.058s] gmake[2]: *** Waiting for unfinished jobs....
+[0.062s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+[0.205s] In file included from [01m[K/usr/local/zed/include/sl/Fusion.hpp:66[m[K,
+[0.206s]                  from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include/gnss_replay.hpp:5[m[K,
+[0.206s]                  from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/src/gnss_replay.cpp:1[m[K:
+[0.206s] [01m[K/usr/local/zed/include/sl/Camera.hpp:86:10:[m[K [01;31m[Kfatal error: [m[Kcuda.h: No such file or directory
+[0.206s]    86 | #include [01;31m[K<cuda.h>[m[K
+[0.206s]       |          [01;31m[K^~~~~~~~[m[K
+[0.206s] In file included from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19[m[K,
+[0.206s]                  from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:15[m[K:
+[0.206s] [01m[K/usr/local/zed/include/sl/Camera.hpp:86:10:[m[K [01;31m[Kfatal error: [m[Kcuda.h: No such file or directory
+[0.206s]    86 | #include [01;31m[K<cuda.h>[m[K
+[0.206s]       |          [01;31m[K^~~~~~~~[m[K
+[0.206s] compilation terminated.
+[0.206s] compilation terminated.
+[0.207s] gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:104: CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o] Error 1
+[0.207s] gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:118: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o] Error 1
+[0.231s] In file included from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include/sl_tools.hpp:22[m[K,
+[0.231s]                  from [01m[K/home/aman/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/src/sl_tools.cpp:25[m[K:
+[0.231s] [01m[K/usr/local/zed/include/sl/Camera.hpp:86:10:[m[K [01;31m[Kfatal error: [m[Kcuda.h: No such file or directory
+[0.231s]    86 | #include [01;31m[K<cuda.h>[m[K
+[0.232s]       |          [01;31m[K^~~~~~~~[m[K
+[0.232s] compilation terminated.
+[0.232s] gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:76: CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o] Error 1
+[0.233s] gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/zed_camera_component.dir/all] Error 2
+[0.233s] gmake: *** [Makefile:146: all] Error 2
+[0.234s] Invoked command in '/home/aman/ros2_ws/build/zed_components' returned '2': AMENT_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aman/ros2_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aman/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aman/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aman/ros2_ws/build/zed_components -- -j16 -l16

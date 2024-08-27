@@ -1,0 +1,14 @@
+[  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[ 12%] [34m[1mNo patch step for 'xrceagent'[0m
+[ 18%] [34m[1mPerforming configure step for 'xrceagent'[0m
+loading initial cache file /home/aman/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aman/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[ 25%] [34m[1mPerforming build step for 'xrceagent'[0m
+[35m[1mConsolidate compiler generated dependencies of target microxrcedds_agent[0m
+[  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
